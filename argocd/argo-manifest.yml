@@ -9,7 +9,7 @@ spec:
   source: 
     repoURL: https://github.com/ramu1520/argocd-test 
     targetRevision: HEAD
-    path: manifest
+    path: argocd
   destination: 
     server: https://kubernetes.default.svc
     namespace: bank-app
